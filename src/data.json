@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "receiver" : {
+            "id" : "a01",
+            "firstName" : "Elif",
+            "LastName" : "Ecer"
+        },
+        "messages" : {
+            "text" : "Nasılsın ?",
+            "dateTime" : "2022-08-20T19:00:00.000Z"
+        }
+    },
+    {
+        "id" : 2,
+        "receiver" : {
+            "id" : "a01",
+            "firstName" : "Burak",
+            "LastName" : "Gülmez"
+        },
+        "messages" : {
+            "text" : "Nasılsın ?",
+            "dateTime" : "2022-08-20T19:00:00.000Z"
+        }
+    },
+    {
+        "id" : 3,
+        "receiver" : {
+            "id" : "a01",
+            "firstName" : "Yusuf Enes",
+            "LastName" : "Zenler"
+        },
+        "messages" : {
+            "text" : "Nasılsın ?",
+            "dateTime" : "2022-08-20T19:00:00.000Z"
+        }
+    },
+    {
+        "id" : 4,
+        "receiver" : {
+            "id" : "a01",
+            "firstName" : "Tolunay",
+            "LastName" : "Yaşar"
+        },
+        "messages" : {
+            "text" : "Nasılsın ?",
+            "dateTime" : "2022-08-20T19:00:00.000Z"
+        }
+    }
+]

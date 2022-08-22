@@ -1,9 +1,10 @@
-import {View, Text} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
 import React from 'react';
 import styles from './header.style';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
-
+import {useNavigation} from '@react-navigation/native';
 const Header = () => {
+  const navigation = useNavigation();
   return (
     <View style={styles.container}>
       <View style={styles.title_iconContainer}>
@@ -20,7 +21,9 @@ const Header = () => {
           style={{fontSize: 25, color: '#fff', marginLeft: 5}}
           name="camera"
         />
-        <Text style={[styles.text, {color: '#fff'}]}>CHATS</Text>
+        <TouchableOpacity onPress={() => navigation.navigate('Chat')}>
+          <Text style={[styles.text, {color: '#fff'}]}>CHATS</Text>
+        </TouchableOpacity>
         <Text style={styles.text}>STATUS</Text>
         <Text style={[styles.text, {marginRight: 20}]}>CALLS</Text>
       </View>
