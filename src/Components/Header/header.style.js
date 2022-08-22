@@ -3,24 +3,37 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
   container: {
     backgroundColor: '#085e55',
-    flexDirection: 'row',
     flex: 0.2,
     justifyContent: 'space-between',
   },
+  title_iconContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
   title: {
-    marginVertical: 10,
-    marginHorizontal: 10,
+    marginVertical: 20,
+    marginHorizontal: 15,
     fontSize: 34,
     color: '#fff',
-    fontWeight: 'bold',
+    fontWeight: '500',
   },
   iconContainer: {
-    marginVertical: 25,
+    marginVertical: 35,
     flexDirection: 'row',
   },
   icon: {
     marginRight: 15,
     fontSize: 30,
     color: '#fff',
+  },
+  footer: {
+    justifyContent: 'space-between',
+    flexDirection: 'row',
+  },
+  text: {
+    marginBottom: 10,
+    fontWeight: '400',
+    fontSize: 20,
+    color: '#589794',
   },
 });
