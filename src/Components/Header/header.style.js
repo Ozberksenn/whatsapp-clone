@@ -3,7 +3,6 @@ import {StyleSheet} from 'react-native';
 export default StyleSheet.create({
   container: {
     backgroundColor: '#085e55',
-    flex: 0.2,
     justifyContent: 'space-between',
   },
   title_iconContainer: {
