@@ -1,10 +1,12 @@
 import {View, Text} from 'react-native';
 import React from 'react';
+import ChatHeader from '../../Components/ChatHeader/ChatHeader';
+const Chat = ({route}) => {
+  const {firstName, photo} = route.params;
 
-const Chat = () => {
   return (
     <View>
-      <Text>Chat</Text>
+      <ChatHeader firstName={firstName} photo={photo} />
     </View>
   );
 };

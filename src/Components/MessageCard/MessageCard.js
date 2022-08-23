@@ -5,9 +5,17 @@ import {useNavigation} from '@react-navigation/native';
 
 const MessageCard = ({data}) => {
   const navigation = useNavigation();
+
   return (
     <View style={styles.container}>
-      <TouchableOpacity onPress={() => navigation.navigate('Chat')}>
+      <TouchableOpacity
+        onPress={() =>
+          navigation.navigate('Chat', {
+            itemId: data.item.id,
+            firstName: data.item.receiver[0].firstName,
+            photo: data.item.receiver[0].photo,
+          })
+        }>
         {/* Tıklanılan mesajlaşmaya gidilebilinecek. */}
         <View style={styles.imageContainer}>
           {/* imageContainer profil fotoğrafı ve textleri yan yana almak için oluşturuldu. */}

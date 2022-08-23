@@ -13,6 +13,7 @@ const Home = () => {
         ItemSeparatorComponent={
           renderSeperator /* her bir card yapısının arasına çizgi ekler. */
         }
+        keyExtractor={item => item.id}
         style={styles.card}
         data={data}
         renderItem={item => <MessageCard data={item} />}

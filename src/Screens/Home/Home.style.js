@@ -6,7 +6,7 @@ export default StyleSheet.create({
   },
   seperator: {
     marginLeft: 85,
-    borderWidth: 1,
+    borderWidth: 0.4,
     borderColor: '#e0e0e0',
   },
 });
