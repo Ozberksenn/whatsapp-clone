@@ -15,7 +15,7 @@ const ChatHeader = ({firstName, photo}) => {
       </View>
       <View style={{justifyContent: 'center'}}>
         <Text style={styles.firstName}>{firstName}</Text>
-        <Text style={styles.lastSeen}>Last Seen Today 11.00 AM</Text>
+        <Text style={styles.lastSeen}>Last Seen Today 11:00 AM</Text>
       </View>
       <View
         style={{

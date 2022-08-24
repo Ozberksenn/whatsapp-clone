@@ -1,4 +1,4 @@
-import {View, Text, TextInput} from 'react-native';
+import {View, Text, TextInput, Dimensions} from 'react-native';
 import React from 'react';
 import styles from './ChatFooter.style';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';

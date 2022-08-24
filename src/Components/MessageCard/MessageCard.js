@@ -14,6 +14,7 @@ const MessageCard = ({data}) => {
             itemId: data.item.id,
             firstName: data.item.receiver[0].firstName,
             photo: data.item.receiver[0].photo,
+            textData: data.item.messages.text,
           })
         }>
         {/* Tıklanılan mesajlaşmaya gidilebilinecek. */}
