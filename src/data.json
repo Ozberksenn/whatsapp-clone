@@ -8,10 +8,16 @@
             "photo" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/133708295_403315904423215_8762506315596195066_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=dYIzsy_beIkAX-RWi0n&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT-8Cs3eUBfaCFTeS3Sg9xhEh9gVxyIbJlXvU8JtivP0ew&oe=630B11D9&_nc_sid=5cbaad" 
             }
         ],
-        "messages" : {
-            "text" : "Nasılsın, nasıl gidiyor, projeni hallettin mi ? ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : "Heyy naber",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Nasıl gidiyor projeni hallettin mi ? ",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     },
     {
         "id" : "2",
@@ -22,10 +28,16 @@
             "photo" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/241367286_438842194099518_5247349493509755357_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=PPPqKNxv92oAX-B79Xi&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT-qJ-4Us8G57hfARxnhU61ObTztfDKSPRepY87Yiy_tmA&oe=630ABE12&_nc_sid=5cbaad" 
             }
         ],
-        "messages" : {
-            "text" : "Bu akşam dışarı mı çıksak ? ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : "Kanka nasılsın",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Ev işlerini halledebildin mi ? ",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     },
     {
         "id" : "3",
@@ -36,10 +48,16 @@
             "photo" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/299328533_1677771822578155_234716165293358214_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=pUbhc9kqS-IAX_VAtiE&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT-OPYzanvH5_fM_b8yXvyrqnodJWGiQ-6Jl9X2bxxFqxA&oe=630BF654&_nc_sid=5cbaad" 
             }
         ],
-        "messages" : {
-            "text" : " :)) ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : "Ahahahahahhaha",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Çok iyiymiş :D",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     },
     {
         "id" : "4",
@@ -50,10 +68,16 @@
             "photo" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/193261126_223207375998986_314634184483768085_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=w0kmPy4Wih8AX_1Wo9x&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT8liRIvdGNg89LJLeT_NF2T0jm3tcaoy0f_QbIERuFAjg&oe=630A40F2&_nc_sid=5cbaad" 
             }
         ],
-        "messages" : {
-            "text" : "Ne zaman geleceksin. ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : "Ablam",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Haftaya gelebilecek misin ? ",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     },
     {
         "id" : "5",
@@ -64,10 +88,16 @@
             "photo" : "https://img-s1.onedio.com/id-61a733434d489652056b7d9c/rev-0/w-620/f-jpg/s-19ee79ae0e59cc63b13cc557e709bf341db98cb1.jpg" 
             }
         ],
-        "messages" : {
-            "text" : "Oğlum bir şeye ihtiyacın var mı ? ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : "Oğlum nasıl gidiyor ",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Bir ihtiyacın var mı ? ",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     },
     {
         "id" : "6",
@@ -78,10 +108,16 @@
             "photo" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/287502242_1045184019730905_4004829214227734270_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=UhnwLxwEn44AX9BFNJH&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AT-FTnzn8ajZn-q8EvLdj-pFFDhlcfd8E5vLL8_ZyhIVUg&oe=630AB1D9&_nc_sid=8fd12b" 
             }
         ],
-        "messages" : {
-            "text" : "Sinematografik olarak çok iyi ya :) ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : ":DD ",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Ben gelmeyeceğim.",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     },
     {
         "id" : "7",
@@ -92,10 +128,16 @@
             "photo" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/292089351_3287841441538196_8611309190935473006_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=IzIrgf98sHYAX84Uv_2&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT_DTjZ9ypI8bLGEdVjXvVbtpjOFKffvJB_LFSyDomm6Fg&oe=630A9EF6&_nc_sid=5cbaad" 
             }
         ],
-        "messages" : {
-            "text" : "Asjdlfsadşsf ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : "Oh beeee",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Süper",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     },
     {
         "id" : "8",
@@ -106,10 +148,16 @@
             "photo" : "https://instagram.fist1-1.fna.fbcdn.net/v/t51.2885-19/278126077_490747809232277_5353054493828636023_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fist1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=OC0f7iOzWlkAX9MOoou&edm=AHG7ALcBAAAA&ccb=7-5&oh=00_AT98P-lUYaxXJZVEV8KjurURjUlCjCAZpMcT6TaR38Up-w&oe=630B8177&_nc_sid=5cbaad" 
             }
         ],
-        "messages" : {
-            "text" : "Hayat nasıl gidiyor ? ",
-            "dateTime" : "2022-08-20T19:00:00.000Z"
-        }
+        "messages" : [
+            {
+                "text" : "kasdjklasdl",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            },
+            {
+                "text" : "Burada havalar çok sıcak",
+                "dateTime" : "2022-08-20T19:00:00.000Z"
+            }
+        ]
     }
 
 

@@ -14,7 +14,8 @@ const MessageCard = ({data}) => {
             itemId: data.item.id,
             firstName: data.item.receiver[0].firstName,
             photo: data.item.receiver[0].photo,
-            textData: data.item.messages.text,
+            textData: data.item.messages[0].text,
+            textData_two: data.item.messages[1].text,
           })
         }>
         {/* Tıklanılan mesajlaşmaya gidilebilinecek. */}
@@ -28,7 +29,7 @@ const MessageCard = ({data}) => {
             <Text style={styles.firstName}>
               {data.item.receiver[0].firstName}
             </Text>
-            <Text style={styles.message}>{data.item.messages.text}</Text>
+            <Text style={styles.message}>{data.item.messages[1].text}</Text>
           </View>
         </View>
       </TouchableOpacity>

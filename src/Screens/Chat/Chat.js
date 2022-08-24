@@ -1,19 +1,26 @@
-import {View, Text} from 'react-native';
+import {View, ImageBackground, FlatList} from 'react-native';
 import React from 'react';
+import styles from './Chat.style';
 import ChatHeader from '../../Components/ChatHeader/ChatHeader';
 import ChatFooter from '../../Components/ChatFooter/ChatFooter';
 import ChatCard from '../../Components/ChatCard/ChatCard';
 const Chat = ({route}) => {
-  const {firstName, photo, textData} = route.params;
+  const {firstName, photo, textData, textData_two} = route.params;
 
   return (
-    <View style={{flex: 1, justifyContent: 'space-between'}}>
-      <ChatHeader firstName={firstName} photo={photo} />
-      <ChatCard textData={textData} />
+    <ImageBackground
+      source={{
+        uri: 'https://res.cloudinary.com/practicaldev/image/fetch/s--WAKqnINn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/tw0nawnvo0zpgm5nx4fp.png',
+      }}
+      style={styles.container}>
+      <View>
+        <ChatHeader firstName={firstName} photo={photo} />
+        <ChatCard textData={textData} textData_two={textData_two} />
+      </View>
       <View>
         <ChatFooter />
       </View>
-    </View>
+    </ImageBackground>
   );
 };
 
