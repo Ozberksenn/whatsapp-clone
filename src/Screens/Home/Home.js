@@ -5,6 +5,9 @@ import Header from '../../Components/Header/Header';
 import MessageCard from '../../Components/MessageCard/MessageCard';
 import data from '../../data.json';
 const Home = () => {
+  {
+    /* uygulama çalıştığında gelen ilk ekran mesajlaşılan kişiler bu sayfada render edilecek. */
+  }
   const renderSeperator = () => <View style={styles.seperator} />;
   return (
     <View style={styles.container}>

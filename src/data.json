@@ -11,11 +11,15 @@
         "messages" : [
             {
                 "text" : "Heyy naber",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "13.21"
             },
             {
                 "text" : "Nasıl gidiyor projeni hallettin mi ? ",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "13.22"
+            },
+            {
+                "text" : ":)",
+                "dateTime" : "13.22"
             }
         ]
     },
@@ -31,11 +35,11 @@
         "messages" : [
             {
                 "text" : "Kanka nasılsın",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "15.10"
             },
             {
                 "text" : "Ev işlerini halledebildin mi ? ",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "15.11"
             }
         ]
     },
@@ -51,11 +55,15 @@
         "messages" : [
             {
                 "text" : "Ahahahahahhaha",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "16.10"
             },
             {
                 "text" : "Çok iyiymiş :D",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "16.36"
+            },
+            {
+                "text" : "3 günde hayatım tükendi",
+                "dateTime" : "16.37"
             }
         ]
     },
@@ -70,12 +78,8 @@
         ],
         "messages" : [
             {
-                "text" : "Ablam",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
-            },
-            {
                 "text" : "Haftaya gelebilecek misin ? ",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "01.01"
             }
         ]
     },
@@ -91,11 +95,11 @@
         "messages" : [
             {
                 "text" : "Oğlum nasıl gidiyor ",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "11.10"
             },
             {
                 "text" : "Bir ihtiyacın var mı ? ",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "11.10"
             }
         ]
     },
@@ -111,11 +115,11 @@
         "messages" : [
             {
                 "text" : ":DD ",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "17.56"
             },
             {
                 "text" : "Ben gelmeyeceğim.",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "17.56"
             }
         ]
     },
@@ -131,11 +135,11 @@
         "messages" : [
             {
                 "text" : "Oh beeee",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "19.03"
             },
             {
                 "text" : "Süper",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "19.03"
             }
         ]
     },
@@ -151,11 +155,11 @@
         "messages" : [
             {
                 "text" : "kasdjklasdl",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "22.55"
             },
             {
                 "text" : "Burada havalar çok sıcak",
-                "dateTime" : "2022-08-20T19:00:00.000Z"
+                "dateTime" : "22.57"
             }
         ]
     }

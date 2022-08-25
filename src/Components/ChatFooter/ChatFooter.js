@@ -11,7 +11,7 @@ const ChatFooter = () => {
         <Icon style={styles.iconPhoto} name="camera" />
       </View>
       <View style={styles.microphone}>
-        <Icon style={{color: '#fff', fontSize: 25}} name="microphone" />
+        <Icon style={styles.IconMicrophone} name="microphone" />
       </View>
     </View>
   );

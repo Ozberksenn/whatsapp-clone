@@ -1,15 +1,20 @@
-import {StyleSheet, Dimensions} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
-  textContainer: {marginLeft: 10, marginRight: 70},
-  text: {
-    padding: 10,
+  text_dateTimeContainer: {
     backgroundColor: '#fff',
+    flexDirection: 'row',
+    margin: 5,
+    marginRight: 'auto',
+    justifyContent: 'space-between',
+    alignItems: 'flex-end',
     borderRadius: 10,
-    justifyContent: 'center',
-    marginVertical: 10,
-    color: '#000',
-    fontSize: 16,
-    fontWeight: '600',
   },
+  text: {
+    padding: 8,
+    fontSize: 16,
+    color: '#000',
+    fontWeight: '400',
+  },
+  dateTime: {marginRight: 5, fontSize: 12},
 });

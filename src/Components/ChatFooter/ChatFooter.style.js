@@ -31,4 +31,8 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  IconMicrophone: {
+    color: '#fff',
+    fontSize: 25,
+  },
 });

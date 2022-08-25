@@ -1,11 +1,11 @@
-import {View, ImageBackground, FlatList} from 'react-native';
+import {View, ImageBackground} from 'react-native';
 import React from 'react';
 import styles from './Chat.style';
 import ChatHeader from '../../Components/ChatHeader/ChatHeader';
 import ChatFooter from '../../Components/ChatFooter/ChatFooter';
 import ChatCard from '../../Components/ChatCard/ChatCard';
 const Chat = ({route}) => {
-  const {firstName, photo, textData, textData_two} = route.params;
+  const {firstName, photo, textData} = route.params;
 
   return (
     <ImageBackground
@@ -15,7 +15,7 @@ const Chat = ({route}) => {
       style={styles.container}>
       <View>
         <ChatHeader firstName={firstName} photo={photo} />
-        <ChatCard textData={textData} textData_two={textData_two} />
+        <ChatCard textData={textData} />
       </View>
       <View>
         <ChatFooter />

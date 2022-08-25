@@ -4,6 +4,9 @@ import styles from './ChatHeader.style';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useNavigation} from '@react-navigation/native';
 const ChatHeader = ({firstName, photo}) => {
+  {
+    /* Bu component Chat sayfasının en üstünde yer alan header alanını kapsar. */
+  }
   const navigation = useNavigation();
   return (
     <View style={styles.container}>
@@ -17,12 +20,7 @@ const ChatHeader = ({firstName, photo}) => {
         <Text style={styles.firstName}>{firstName}</Text>
         <Text style={styles.lastSeen}>Last Seen Today 11:00 AM</Text>
       </View>
-      <View
-        style={{
-          flexDirection: 'row',
-          marginLeft: 20,
-          marginVertical: 15,
-        }}>
+      <View style={styles.iconContainer}>
         <Icon style={styles.icon} name="phone-outline" />
         <Icon style={styles.icon} name="paperclip" />
         <Icon style={styles.icon} name="dots-vertical" />

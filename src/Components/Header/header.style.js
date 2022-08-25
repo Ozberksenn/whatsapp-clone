@@ -25,6 +25,7 @@ export default StyleSheet.create({
     fontSize: 30,
     color: '#fff',
   },
+  iconCamera: {fontSize: 25, color: '#fff', marginLeft: 5},
   footer: {
     justifyContent: 'space-between',
     flexDirection: 'row',

@@ -10,7 +10,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator screenOptions={{headerShown: false}}>
-        {/* headerShown : false ile titleları kaldırdık. Home ve Chat yazmayacak.  */}
+        {/* headerShown : false ile title kaldırdık. Home ve Chat yazılmayacak.  */}
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Chat" component={ChatScreen} />
       </Stack.Navigator>

@@ -11,11 +11,9 @@ const MessageCard = ({data}) => {
       <TouchableOpacity
         onPress={() =>
           navigation.navigate('Chat', {
-            itemId: data.item.id,
             firstName: data.item.receiver[0].firstName,
             photo: data.item.receiver[0].photo,
-            textData: data.item.messages[0].text,
-            textData_two: data.item.messages[1].text,
+            textData: data.item.messages,
           })
         }>
         {/* Tıklanılan mesajlaşmaya gidilebilinecek. */}
@@ -29,7 +27,10 @@ const MessageCard = ({data}) => {
             <Text style={styles.firstName}>
               {data.item.receiver[0].firstName}
             </Text>
-            <Text style={styles.message}>{data.item.messages[1].text}</Text>
+            <Text style={styles.message}>
+              {data.item.messages[data.item.messages.length - 1].text}{' '}
+              {/* Ana ekranda listelenen mesajların data içerisinde ki son mesajı listelemesi için length-1 kullandık. */}
+            </Text>
           </View>
         </View>
       </TouchableOpacity>
