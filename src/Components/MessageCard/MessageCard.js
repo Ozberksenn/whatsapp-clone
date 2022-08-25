@@ -27,8 +27,9 @@ const MessageCard = ({data}) => {
             <Text style={styles.firstName}>
               {data.item.receiver[0].firstName}
             </Text>
-            <Text style={styles.message}>
-              {data.item.messages[data.item.messages.length - 1].text}{' '}
+            <Text numberOfLines={1} style={styles.message}>
+              {/* numberOfLines kullanmamızın sebebi eğer mesaç çok uzunsa sonuna üç nokta ekler. */}
+              {data.item.messages[data.item.messages.length - 1].text}
               {/* Ana ekranda listelenen mesajların data içerisinde ki son mesajı listelemesi için length-1 kullandık. */}
             </Text>
           </View>

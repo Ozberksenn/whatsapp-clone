@@ -1,7 +1,11 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet, Dimensions} from 'react-native';
 
 export default StyleSheet.create({
+  textContainer: {
+    maxWidth: 340,
+  },
   text_dateTimeContainer: {
+    elevation: 5,
     backgroundColor: '#fff',
     flexDirection: 'row',
     margin: 5,
@@ -16,5 +20,9 @@ export default StyleSheet.create({
     color: '#000',
     fontWeight: '400',
   },
-  dateTime: {marginRight: 5, fontSize: 12},
+  dateTime: {
+    marginRight: 10,
+    top: -3,
+    fontSize: 12,
+  },
 });

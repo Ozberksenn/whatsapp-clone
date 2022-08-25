@@ -18,7 +18,7 @@
                 "dateTime" : "13.22"
             },
             {
-                "text" : ":)",
+                "text" : "Özberk",
                 "dateTime" : "13.22"
             }
         ]
@@ -34,11 +34,7 @@
         ],
         "messages" : [
             {
-                "text" : "Kanka nasılsın",
-                "dateTime" : "15.10"
-            },
-            {
-                "text" : "Ev işlerini halledebildin mi ? ",
+                "text" : "Kanka nasılsın , Ev işlerini halledebildin mi, sıkıntı var mı ? Umarım halletmişsindir. ",
                 "dateTime" : "15.11"
             }
         ]
@@ -62,7 +58,7 @@
                 "dateTime" : "16.36"
             },
             {
-                "text" : "3 günde hayatım tükendi",
+                "text" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,",
                 "dateTime" : "16.37"
             }
         ]

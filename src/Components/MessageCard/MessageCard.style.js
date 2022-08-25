@@ -6,7 +6,7 @@ export default StyleSheet.create({
   profilPhoto: {width: 70, height: 70, borderRadius: 50},
   firstName: {marginLeft: 10, fontSize: 18, color: '#000', fontWeight: '700'},
   message: {
-    flex: 1,
+    marginRight: 50,
     marginLeft: 10,
     marginTop: 5,
     fontSize: 16,

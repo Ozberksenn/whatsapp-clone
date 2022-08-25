@@ -6,10 +6,8 @@ const ChatCard = ({textData}) => {
     <View style={styles.textContainer}>
       {textData &&
         textData.map((item, index) => (
-          <View style={styles.text_dateTimeContainer}>
-            <Text key={index} style={styles.text}>
-              {item.text}
-            </Text>
+          <View key={index} style={styles.text_dateTimeContainer}>
+            <Text style={styles.text}>{item.text}</Text>
             <Text style={styles.dateTime}>{item.dateTime}</Text>
           </View>
         ))}
